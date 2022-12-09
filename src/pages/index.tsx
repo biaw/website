@@ -13,7 +13,7 @@ function Hero(): JSX.Element {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles["buttons"]}>
-          <Link className="button button--secondary button--lg" to="/projects">Open GitHub</Link>
+          <Link className="button button--secondary button--lg" href="https://github.com/biaw">Open GitHub</Link>
         </div>
       </div>
     </header>
