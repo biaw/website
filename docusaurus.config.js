@@ -7,7 +7,7 @@ const config = {
   baseUrl: "/",
   title: "Promise Solutions",
   url: "https://promise.solutions",
-  favicon: "./favicon.ico",
+  favicon: "./logo.svg",
   tagline: "A group of developers making stuff so you don't have to",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
