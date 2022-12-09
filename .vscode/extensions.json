@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.npm-intellisense",
+    "meganrogge.template-string-converter"
+  ]
+}

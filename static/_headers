@@ -1,0 +1,5 @@
+# assets
+/assets/*
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: nosnippet
+  Cache-Control: max-age=31536000, public

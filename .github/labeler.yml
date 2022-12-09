@@ -1,0 +1,15 @@
+# biaw/website
+
+content:
+- "content/*/*"
+- "content/*/**/*"
+
+frontend:
+- "src/*"
+- "src/**/*"
+- "static/*"
+- "static/**/*"
+
+backend:
+- "functions/*"
+- "functions/**/*"
