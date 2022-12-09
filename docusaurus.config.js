@@ -27,7 +27,13 @@ const config = {
         alt: "Promise Solutions Logo",
         src: "./logo.png",
       },
-      items: [],
+      items: [
+        {
+          label: "Blog",
+          position: "left",
+          to: "blog"
+        }
+      ],
     },
     footer: {
       links: [
