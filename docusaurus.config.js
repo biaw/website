@@ -29,10 +29,15 @@ const config = {
       },
       items: [
         {
+          label: "Meta",
+          position: "left",
+          to: "meta",
+        },
+        {
           label: "Blog",
           position: "left",
-          to: "blog"
-        }
+          to: "blog",
+        },
       ],
     },
     footer: {
@@ -65,6 +70,16 @@ const config = {
   },
 
   plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({ // eslint-disable-line no-extra-parens
+        path: "content/meta",
+        routeBasePath: "/meta",
+        exclude: ["README.md", "template.md"],
+      }),
+    ],
     [
       "@docusaurus/plugin-content-blog",
 

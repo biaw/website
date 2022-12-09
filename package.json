@@ -13,6 +13,7 @@
     "@docusaurus/core": "2.2.0",
     "@docusaurus/plugin-client-redirects": "2.2.0",
     "@docusaurus/plugin-content-blog": "2.2.0",
+    "@docusaurus/plugin-content-docs": "2.2.0",
     "@docusaurus/plugin-content-pages": "2.2.0",
     "@docusaurus/plugin-google-gtag": "2.2.0",
     "@docusaurus/plugin-ideal-image": "2.2.0",
