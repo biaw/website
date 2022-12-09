@@ -60,6 +60,15 @@ const config = {
             },
           ],
         },
+        {
+          title: "Sponsors",
+          items: [
+            {
+              label: "TLive",
+              href: "https://trovo.live",
+            },
+          ],
+        },
       ],
     },
     docs: {
