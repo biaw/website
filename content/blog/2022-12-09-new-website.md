@@ -1,6 +1,6 @@
 ---
 authors: promise
-tags: [update]
+tags: [updates]
 ---
 
 
@@ -9,6 +9,8 @@ tags: [update]
 Welcome to the new website! We're trying out a new design, it's still very empty in here but we plan on adding more stuff soon.
 
 I've also decided to include this blog so all our members (including me) can write blog posts about whatever we want. I'm planning on writing about my experience with stuff and what I've learned so far.
+
+<!-- truncate -->
 
 
 ## What the future brings
