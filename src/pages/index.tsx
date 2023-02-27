@@ -1,9 +1,9 @@
-import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
-import React from "react";
-import clsx from "clsx";
-import styles from "./index.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import React from "react";
+import styles from "./index.module.css";
 
 function Hero(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();

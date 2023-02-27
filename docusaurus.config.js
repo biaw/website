@@ -121,7 +121,7 @@ const config = {
       "@docusaurus/plugin-client-redirects",
 
       /** @type {import('@docusaurus/plugin-client-redirects').Options} */
-      ({ fromExtensions: ["html"]}), // eslint-disable-line no-extra-parens
+      ({ fromExtensions: ["html"] }), // eslint-disable-line no-extra-parens
     ],
     [
       "@docusaurus/plugin-google-gtag",
