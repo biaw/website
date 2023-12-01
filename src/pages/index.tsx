@@ -24,7 +24,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      description={siteConfig.tagline}>
+      description={siteConfig.tagline}
+    >
       <Hero />
     </Layout>
   );
