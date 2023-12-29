@@ -36,8 +36,8 @@ dependencies:
     specifier: 3.0.0
     version: 3.0.0(@types/react@18.2.39)(react@18.2.0)
   clsx:
-    specifier: 2.0.0
-    version: 2.0.0
+    specifier: 2.0.1
+    version: 2.0.1
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2106,7 +2106,7 @@ packages:
       '@docusaurus/utils-common': 3.0.1(@docusaurus/types@3.0.1)
       '@docusaurus/utils-validation': 3.0.1(@docusaurus/types@3.0.1)
       '@mdx-js/react': 3.0.0(@types/react@18.2.39)(react@18.2.0)
-      clsx: 2.0.0
+      clsx: 2.0.1
       copy-text-to-clipboard: 3.2.0
       infima: 0.2.0-alpha.43
       lodash: 4.17.21
@@ -2155,7 +2155,7 @@ packages:
       '@types/history': 4.7.11
       '@types/react': 18.2.39
       '@types/react-router-config': 5.0.10
-      clsx: 2.0.0
+      clsx: 2.0.1
       parse-numeric-range: 1.3.0
       prism-react-renderer: 2.3.0(react@18.2.0)
       react: 18.2.0
@@ -2197,7 +2197,7 @@ packages:
       '@docusaurus/utils-validation': 3.0.1(@docusaurus/types@3.0.1)
       algoliasearch: 4.20.0
       algoliasearch-helper: 3.15.0(algoliasearch@4.20.0)
-      clsx: 2.0.0
+      clsx: 2.0.1
       eta: 2.2.0
       fs-extra: 11.2.0
       lodash: 4.17.21
@@ -3906,8 +3906,8 @@ packages:
       kind-of: 6.0.3
       shallow-clone: 3.0.1
 
-  /clsx@2.0.0:
-    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
+  /clsx@2.0.1:
+    resolution: {integrity: sha512-PrYqtepbSWwrFmtHX0IHv3zUEbWn1psIqaIZyjB3b9wEGpRAkpyeKbCCCkCXJYiHZPjK7jckJvf2sEB/8VKPgQ==}
     engines: {node: '>=6'}
 
   /collapse-white-space@2.1.0:
@@ -7959,7 +7959,7 @@ packages:
       react: '>=16.0.0'
     dependencies:
       '@types/prismjs': 1.26.3
-      clsx: 2.0.0
+      clsx: 2.0.1
       react: 18.2.0
 
   /prismjs@1.29.0:
