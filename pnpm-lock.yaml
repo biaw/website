@@ -50,8 +50,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20240404.0
-    version: 4.20240404.0
+    specifier: 4.20240405.0
+    version: 4.20240405.0
   '@docusaurus/module-type-aliases':
     specifier: 3.2.1
     version: 3.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -1437,8 +1437,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  /@cloudflare/workers-types@4.20240404.0:
-    resolution: {integrity: sha512-lfnYnjX4/65MrVeMF/k3C7BzaLoU1fEIdzCs04ofrx7J6rH7LK3DHRNcnuchoSxKuzG2xVf940MKZ1XieGRCLQ==}
+  /@cloudflare/workers-types@4.20240405.0:
+    resolution: {integrity: sha512-sEVOhyOgXUwfLkgHqbLZa/sfkSYrh7/zLmI6EZNibPaVPvAnAcItbNNl3SAlLyLKuwf8m4wAIAgu9meKWCvXjg==}
     dev: true
 
   /@colors/colors@1.5.0:
