@@ -1,7 +1,4 @@
 {
-  "include": [ "./src", "./functions", "./docusaurus.config.ts" ],
+  "include": [ "./src", "./docusaurus.config.ts" ],
   "extends": ["@docusaurus/tsconfig", "@tsconfig/strictest"],
-  "compilerOptions": {
-    "types": ["@cloudflare/workers-types"]
-  }
 }

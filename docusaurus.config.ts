@@ -16,7 +16,7 @@ const config: Config = {
   title: "Promise Solutions",
   url: "https://promise.solutions",
   favicon: "./logo.svg",
-  tagline: "A group of developers making stuff so you don't have to",
+  tagline: "a group of developers making stuff so you don't have to",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   onDuplicateRoutes: "warn",
@@ -26,9 +26,8 @@ const config: Config = {
       defaultMode: "dark",
       respectPrefersColorScheme: true,
     },
-    metadata: [{ name: "theme-color", content: "#09BAC4" }],
+    metadata: [{ name: "theme-color", content: "#09bac4" }],
     navbar: {
-      title: "Promise Solutions",
       logo: {
         alt: "Promise Solutions Logo",
         src: "./logo.png",
@@ -63,15 +62,6 @@ const config: Config = {
             {
               label: "Countr",
               href: "https://countr.xyz",
-            },
-          ],
-        },
-        {
-          title: "Sponsors",
-          items: [
-            {
-              label: "TLive",
-              href: "https://trovo.live",
             },
           ],
         },
@@ -134,9 +124,19 @@ const config: Config = {
       ({ name: "assets/images/[name]-[hash:hex:7]-[width].[ext]" }) satisfies PluginIdealImageOptions,
     ],
   ],
-  scripts: [{ src: "https://arc.io/widget.min.js#M49WnUbm", async: true }],
   themes: ["@docusaurus/theme-classic"],
   clientModules: [require.resolve("./src/style.css")],
+  future: {
+    // eslint-disable-next-line camelcase
+    experimental_faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      mdxCrossCompilerCache: true,
+    },
+  },
 };
 
 export default config;

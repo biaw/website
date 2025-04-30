@@ -4,21 +4,23 @@
   "scripts": {
     "build": "docusaurus build",
     "dev": "docusaurus start",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint ./src --max-warnings=0",
+    "lint:fix": "eslint ./src --fix",
+    "serve": "wrangler pages dev ./build",
     "test": "tsc",
     "test:watch": "tsc -w"
   },
   "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/plugin-client-redirects": "3.5.2",
-    "@docusaurus/plugin-content-blog": "3.5.2",
-    "@docusaurus/plugin-content-docs": "3.5.2",
-    "@docusaurus/plugin-content-pages": "3.5.2",
-    "@docusaurus/plugin-google-gtag": "3.5.2",
-    "@docusaurus/plugin-ideal-image": "3.5.2",
-    "@docusaurus/plugin-sitemap": "3.5.2",
-    "@docusaurus/theme-classic": "3.5.2",
+    "@docusaurus/core": "3.7.0",
+    "@docusaurus/faster": "3.7.0",
+    "@docusaurus/plugin-client-redirects": "3.7.0",
+    "@docusaurus/plugin-content-blog": "3.7.0",
+    "@docusaurus/plugin-content-docs": "3.7.0",
+    "@docusaurus/plugin-content-pages": "3.7.0",
+    "@docusaurus/plugin-google-gtag": "3.7.0",
+    "@docusaurus/plugin-ideal-image": "3.7.0",
+    "@docusaurus/plugin-sitemap": "3.7.0",
+    "@docusaurus/theme-classic": "3.7.0",
     "@mdx-js/react": "3.0.1",
     "clsx": "2.1.1",
     "react": "18.3.1",
@@ -26,15 +28,15 @@
     "sitemap": "8.0.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240821.1",
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/preset-classic": "3.7.0",
+    "@docusaurus/tsconfig": "3.7.0",
+    "@docusaurus/types": "3.7.0",
     "@tsconfig/strictest": "2.0.5",
-    "eslint": "8.57.0",
+    "eslint": "9.25.1",
     "eslint-config-promise": "github:promise/eslint-config",
-    "typescript": "5.5.4"
+    "typescript": "5.8.3",
+    "wrangler": "4.13.2"
   },
   "browserslist": {
     "production": [
@@ -48,13 +50,5 @@
       "last 1 safari version"
     ]
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "extends": [
-      "promise"
-    ]
-  }
+  "packageManager": "pnpm@9.15.0"
 }
