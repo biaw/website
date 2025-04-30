@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
@@ -5,7 +6,7 @@ import clsx from "clsx";
 import React from "react";
 import styles from "./index.module.css";
 
-function Hero(): JSX.Element {
+function Hero(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles["heroBanner"])}>
@@ -20,7 +21,7 @@ function Hero(): JSX.Element {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
