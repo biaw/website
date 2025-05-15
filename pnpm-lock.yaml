@@ -79,8 +79,8 @@ importers:
         specifier: 5.8.3
         version: 5.8.3
       wrangler:
-        specifier: 4.15.0
-        version: 4.15.0
+        specifier: 4.15.1
+        version: 4.15.1
 
 packages:
 
@@ -4783,8 +4783,8 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
 
-  miniflare@4.20250508.0:
-    resolution: {integrity: sha512-NvA1W8l7CRSOoaxKoRUpE4YfkNlalekShcV96o9KqGctWd9wydUXAhg4q0KqkDS04CjMNRSKG2kSI3B2BsOxXA==}
+  miniflare@4.20250508.1:
+    resolution: {integrity: sha512-GvY2JZx0yH4sp5dTSx4yS/rHwHMztqnNWCjFnfXrsu+3x5UEYtjc0RMBdq4WfrIUdEaVl2dYdWk2fI4IE0teyA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -6674,8 +6674,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.15.0:
-    resolution: {integrity: sha512-1fCdp2BQ5OtoNQU63/tjLmikmHIB1Vjh2gCs6K+DPz0f1U9PpQusPkcDv0UVONtH82XSfZGNFHZ5s5jPzwHFjw==}
+  wrangler@4.15.1:
+    resolution: {integrity: sha512-dzCdGWJUqjZAeR6kmAF28iD19VyDfD9nP1JiAw9NNlG1pEVzaY4Pr6egYyQcGj98N7WTv/tXoCk1R/L3eU3iwg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -12930,7 +12930,7 @@ snapshots:
       tapable: 2.2.1
       webpack: 5.99.7(@swc/core@1.11.24)
 
-  miniflare@4.20250508.0:
+  miniflare@4.20250508.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -15279,13 +15279,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250508.0
       '@cloudflare/workerd-windows-64': 1.20250508.0
 
-  wrangler@4.15.0:
+  wrangler@4.15.1:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250508.0)
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
-      miniflare: 4.20250508.0
+      miniflare: 4.20250508.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.15
       workerd: 1.20250508.0
