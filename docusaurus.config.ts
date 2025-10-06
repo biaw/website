@@ -18,8 +18,13 @@ const config: Config = {
   favicon: "./logo.svg",
   tagline: "a group of developers making stuff so you don't have to",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
   onDuplicateRoutes: "warn",
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   themeConfig: {
     colorMode: {
