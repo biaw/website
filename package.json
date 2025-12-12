@@ -33,7 +33,7 @@
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
     "@tsconfig/strictest": "2.0.8",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "5.9.3",
     "wrangler": "4.54.0"
