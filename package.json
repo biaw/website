@@ -32,7 +32,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
-    "@tsconfig/strictest": "2.0.8",
+    "@tsconfig/strictest": "2.0.9",
     "eslint": "9.39.5",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "6.0.3",
